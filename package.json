@@ -1,0 +1,27 @@
+{
+    "name": "awesome-contributor-badge",
+    "version": "1.0.0",
+    "description": "Generates a contributor count badge for GitHub repositories",
+    "main": "index.js",
+    "bin": {
+        "awesome-contributor-badge": "./index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "awesome-list",
+        "badge",
+        "svg",
+        "github",
+        "contributors"
+    ],
+    "author": "Anzul Aqeel",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.2.0",
+        "chalk": "^4.1.2",
+        "commander": "^9.4.1",
+        "badgen": "^3.2.3"
+    }
+}
